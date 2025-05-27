@@ -6,7 +6,7 @@ import { ChevronDown, ChevronLeft, ChevronRight, ChevronUp } from 'lucide-react'
 import { cn } from '@/lib/utils';
 import { useEffect } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
-import { projects } from '@/data/portfolioData'; // Importing the projects data
+import { projects, type Project } from '@/data/portfolioData'; // Importing the projects data
 
 const ProjectCarousel = ({ images }: { images: string[] }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel();

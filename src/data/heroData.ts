@@ -1,25 +1,25 @@
 export const heroData = {
-  name: 'John Doe',
-  title: 'Full-Stack Developer',
-  description: 'I build scalable web applications and transform raw data into meaningful insights that drive business success.',
-  profilePicture: 'https://example.com/profilepic.jpg',
+  name: 'Andrew Williams',
+  title: 'Computer Engineer',
+  description: 'I develop hardware solutions and implement streamlined applications that enhance user experience.',
+  profilePicture: '0.jpg',
   skills: [
-    'JavaScript',
-    'React',
-    'Node.js',
-    'SQL',
+    'C++',
+    'C#',
     'Python',
-    'Power BI',
-    'DAX',
-    'ETL',
-    'Data Modeling',
-    'API Development',
-    'Cloud Computing',
-    'Machine Learning'
+    'Assembly',
+    'Linux',
+    'VHDL',
+    'JavaScript',
+    'MATLAB',
+    'KiCAD',
+    'Embedded Systems',
+    'Artificial Intelligence',
+    'UI/UX Design'
   ],
   contact: {
-    github: 'https://github.com/johndoe',
-    linkedin: 'https://www.linkedin.com/in/johndoe/',
-    email: 'johndoe@example.com'
+    github: 'https://github.com/andrewimwilliams',
+    linkedin: 'https://www.linkedin.com/in/andrew-mwilliams/',
+    email: 'andrewimwilliams@gmail.com'
   }
 };

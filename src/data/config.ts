@@ -1,12 +1,12 @@
 export const config = {
-  siteTitle: 'John Doe Portfolio',
-  description: 'Hi, I am John Doe, a passionate web developer and data analyst. I thrive on solving problems and building innovative solutions with modern technology.',
-  author: 'John Doe',
-  contactEmail: 'johndoe@example.com',
-  keywords: 'portfolio, business intelligence, data analysis, Power BI Reports, Software Engineer, Web Developer',
+  siteTitle: 'Andrew Williams Portfolio',
+  description: 'Hi, I am Andrew Williams, a passionate computer engineer committed to solving problems and developing innovative, user-focused solutions.',
+  author: 'Andrew Williams',
+  contactEmail: 'andrewimwilliams@gmail.com',
+  keywords: 'portfolio, computer engineer, engineering, c++, programming, hardware, software, troubleshooting',
   favicon: '/favicon.svg',
   social: {
-    linkedin: 'https://www.linkedin.com/in/johndoe/',
-    github: 'https://github.com/johndoe'
+    linkedin: 'https://www.linkedin.com/in/andrew-mwilliams/',
+    github: 'https://github.com/andrewimwilliams'
   }
 };

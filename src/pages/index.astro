@@ -4,14 +4,14 @@ import Layout from '../layouts/Layout.astro';
 import { Button } from "@/components/ui/button"
 import { MoonIcon, SunIcon } from "lucide-react"
 import Hero from '@/components/Hero';
-import About from '@/components/About';
 import Experience from '@/components/Experience';
-import Portfolio from '@/components/Portfolio';
 import PortfolioFeed from '@/components/PortfolioFeed';
-import Testimonials from '@/components/Testimonials';
-import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import { config } from '../data/config';
+//import About from '@/components/About';
+//import Portfolio from '@/components/Portfolio';
+//import Testimonials from '@/components/Testimonials';
+//import Contact from '@/components/Contact';
 
 ---
 
@@ -25,14 +25,13 @@ import { config } from '../data/config';
     <meta property="og:image" content="/path/to/image.jpg" />
     <meta property="og:url" content="https://yourwebsite.com" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content={config.social.twitter} />
     <meta name="twitter:title" content={config.siteTitle} />
     <meta name="twitter:description" content={config.description} />
     <meta name="twitter:image" content="/path/to/image.jpg" />
   </head>
   <main class="min-h-screen bg-background">
     <div class="fixed top-4 right-4 z-50">
-      <Button variant="outline" size="icon" class="rounded-full" id="theme-toggle">
+      <Button variant="outline" size="icon" className="rounded-full" id="theme-toggle">
         <SunIcon className="h-[2.2rem] w-[2.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
         <MoonIcon className="absolute h-[2.2rem] w-[2.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
         <span class="sr-only">Toggle theme</span>
