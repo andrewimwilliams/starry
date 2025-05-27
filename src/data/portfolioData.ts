@@ -17,38 +17,43 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Customer Insights Dashboard for E-Commerce",
-    summary: "Developed an interactive Power BI dashboard to analyze customer behavior, sales trends, and marketing performance for an e-commerce company.",
+    title: "Texas Instruments Low-Cost AI Based Driving Simulator",
+    summary: "Developed a driving simulator using Unreal Engine and C# by adding realistic collision feedback with steering wheel haptics and implementing multiple artificial intelligence platforms to train new drivers in common driving scenarios.",
     images: [
-      "https://example.com/dashboard1.jpg",
-      "https://example.com/dashboard2.jpg",
-      "https://example.com/dashboard3.jpg"
+      "image12.jpeg",
+      "IMG_5019.JPEG",
+      "IMG_8795.JPEG",
+      "IMG_4911.jpeg",
+      "IMG_5811.JPEG",
+      "IMG_8765.JPEG"
     ],
-    tags: ["Power BI", "SQL", "Data Visualization", "Customer Analytics", "Business Intelligence"],
+    tags: ["Unreal Engine 5", "C#", "Haptics", "AI", "Blender", "3D Modeling", "Logitech", "UI/UX Design"],
     details: {
-      challenge: "The company lacked a centralized reporting system to track customer engagement, purchase patterns, and marketing campaign effectiveness.",
-      solution: "Designed and implemented a Power BI dashboard integrating data from Google Analytics, CRM systems, and sales records, providing real-time insights.",
+      challenge: "Learning how to drive is challenging, and whether it be financial or environmental issues, many new drivers are missing the appropriate tools to learn best driving practices.",
+      solution: "Developed an affordable driving simulator, implementing responsive collision feedback with haptics and real-time driver training with artificial intelligence.",
       impact: [
-        "Increased marketing ROI by 25% through data-driven campaign adjustments.",
-        "Enhanced customer segmentation, leading to a 15% improvement in personalized recommendations and repeat purchases."
+        "Created a virtual environment to help new drivers practice the basics and to allow experienced drivers to hone their skills.",
+        "Improved accessibility for users by displaying unique driver training tips both audibly and visually."
       ]
     }
   },
   {
     id: 2,
-    title: "Automated Financial Reporting System",
-    summary: "Created an automated ETL pipeline to streamline financial reporting, reducing manual data processing time for a financial services firm.",
+    title: "3x3 Mechanical Keypad",
+    summary: " Built custom 3x3 mechanical keypad by designing a PCB in KiCAD, soldering switches, diodes, and Arduino Pro Micro onto the PCB, configuring the keymap using C, and flashing custom QMK firmware to the keypad.",
     images: [
-      "https://example.com/finance1.jpg",
-      "https://example.com/finance2.jpg"
+      "IMG_2238.jpg",
+      "front.jpg",
+      "back.jpg",
+      "schem.jpg"
     ],
-    tags: ["Python", "ETL", "Data Engineering", "Finance", "Power BI", "Automation"],
+    tags: ["Mechanical Keyboard", "C", "PCB", "Soldering", "Arduino", "Diodes", "QMK", "Firmware"],
     details: {
-      challenge: "The finance team spent excessive time manually aggregating and reconciling data from multiple sources for monthly reports.",
-      solution: "Developed a Python-based ETL pipeline that extracted, cleaned, and loaded financial data into Power BI, automating report generation.",
+      challenge: "I needed to learn how to configure an Arduino for a keyboard and wanted to get more comfortable with soldering, so a small keypad seemed like a good place to start.",
+      solution: "Designed and built 3x3 keypad by soldering an Arduino microcontroller and diodes to a custom PCB and flashed QMK firmware for it to function.",
       impact: [
-        "Reduced reporting time from 5 days to a few hours, improving efficiency.",
-        "Minimized errors in financial reports, ensuring data accuracy for decision-making."
+        "Bolstered soldering and firmware programming experience.",
+        "Useable as a small macropad for computer functions."
       ]
     }
   }

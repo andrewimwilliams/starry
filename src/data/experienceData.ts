@@ -7,29 +7,28 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
-    title: "Data Analyst",
-    company: "Tech Solutions Inc.",
-    dates: "01/2019 - 12/2022",
+    title: "Service Technician",
+    company: "Florida State University",
+    dates: "02/2021 - 06/2025",
     description: [
-      "Developed interactive Power BI dashboards to analyze business performance and customer trends.",
-      "Automated ETL processes using Python and SQL to improve data processing efficiency by 40%.",
-      "Collaborated with stakeholders to identify key performance metrics and optimize reporting strategies.",
-      "Designed predictive models to forecast revenue and customer churn, providing actionable insights.",
-      "Managed data extraction from multiple sources, including APIs, databases, and cloud storage.",
-      "Presented analytical findings to executive teams, leading to data-driven decision-making."
+      "Developed a custom JavaScript application named ITEM App that maintains data for over 5,000 devices.",
+      "Upgraded ITEM App by improving user interface, increasing inventory efficiency by over 50%.",
+      "Updated engineering software by cloning SSDs through system BIOS, improving overall system performance.",
+      "Assembled workstations for students and faculty by promptly deploying desktops, displays, and other peripherals.",
+      "Renovated lecture rooms by removing old hardware and installing new machines and AV wiring.",
+      "Transformed unreliable classrooms into dependable learning spaces, enhancing the learning environment.",
     ]
   },
   {
-    title: "Software Engineer",
-    company: "Innovatech Solutions",
-    dates: "03/2023 - Present",
+    title: "Server / Busser",
+    company: "Runyon's of Coral Springs",
+    dates: "11/2017 - 03/2020",
     description: [
-      "Developed full-stack web applications using React, Node.js, and MongoDB.",
-      "Implemented RESTful APIs and integrated third-party services for enhanced application functionality.",
-      "Optimized SQL queries and database schemas to improve system performance.",
-      "Led a team of junior developers, mentoring them on best practices in software engineering.",
-      "Designed and implemented CI/CD pipelines, reducing deployment time by 50%.",
-      "Collaborated with UX/UI designers to enhance the user experience of web applications."
+      "Delivered high quality, fine-dining experiences for patrons.",
+      "Served a wide range of guests ranging from restaurant regulars to company executives.",
+      "Led a team of bussers, mentoring and providing them an example of best practices.",
+      "Coordinated with managers and bartenders to effectively attend to all guests.",
+      "Fostered professionalism and customer service.",
     ]
   }
 ];
