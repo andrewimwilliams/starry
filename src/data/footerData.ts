@@ -3,20 +3,20 @@ export const footerData = {
   socialLinks: [
     {
       name: 'GitHub',
-      url: 'https://github.com/johndoe',
+      url: 'https://github.com/andrewimwilliams',
       icon: 'Github'
     },
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/johndoe/',
+      url: 'https://www.linkedin.com/in/andrew-mwilliams/',
       icon: 'Linkedin'
     },
     {
       name: 'Email',
-      url: 'mailto:johndoe@example.com',
+      url: 'mailto:andrewimwilliams@gmail.com',
       icon: 'Mail'
     }
   ],
-  quote: '"Code is like humor. When you have to explain it, it’s bad."',
-  githubCodeLink: 'https://github.com/raulrls/Astro-Shadcn-portfolio'
+  quote: '"The question of whether computers can think is like asking whether submarines can swim." \u2014 Edsger Dijkstra',
+  githubCodeLink: 'https://github.com/andrewimwilliams/starry'
 };

@@ -2,6 +2,8 @@
 
 This is my **personal portfolio website**, where I showcase some of my work from both my professional and academic career. I built this project to explore **modern front-end technologies**, improve my **deployment skills**, and experiment with **UI frameworks**.
 
+Check it out here! [andrew-williams.info](https://andrew-williams.info) 
+
 ## 🌟 Motivation
 
 I created this portfolio for three main reasons:
