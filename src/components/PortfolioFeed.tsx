@@ -194,4 +194,14 @@ const PortfolioFeed = () => {
   );
 };
 
+<Button asChild variant="default" size="lg" className="rounded-full">
+<a
+  href={"Andrew Williams Resume 2025 June.pdf"}
+  target="_blank"
+  rel="noopener noreferrer"
+>               
+  LinkedIn
+</a>
+</Button>
+
 export default PortfolioFeed;
