@@ -12,7 +12,7 @@ export const jobs: Job[] = [
     dates: "02/2021 - 06/2025",
     description: [
       "Developed a custom JavaScript application named ITEM App that maintains data for over 5,000 devices.",
-      "Upgraded ITEM App by improving user interface, increasing inventory efficiency by over 50%.",
+      "Upgraded ITEM App by streamlining user interface, improving inventory efficiency by over 50%.",
       "Updated engineering software by cloning SSDs through system BIOS, improving overall system performance.",
       "Assembled workstations for students and faculty by promptly deploying desktops, displays, and other peripherals.",
       "Renovated lecture rooms by removing old hardware and installing new machines and AV wiring.",
