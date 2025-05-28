@@ -1,7 +1,7 @@
 export const heroData = {
   name: 'Andrew Williams',
   title: 'Computer Engineer',
-  description: 'I develop hardware solutions and implement streamlined applications that enhance user experience.',
+  description: 'I develop hardware and software solutions and implement streamlined applications that enhance user experience.',
   profilePicture: '0.jpg',
   skills: [
     'C++',
