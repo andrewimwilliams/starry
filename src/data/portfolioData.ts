@@ -39,8 +39,8 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    title: "3x3 Mechanical Keypad",
-    summary: " Built custom 3x3 mechanical keypad by designing a PCB in KiCAD, soldering switches, diodes, and Arduino Pro Micro onto the PCB, configuring the keymap using C, and flashing custom QMK firmware to the keypad.",
+    title: "3x3 Mechanical Macropad",
+    summary: "Built custom 3x3 mechanical macropad by designing a PCB in KiCAD, soldering switches, diodes, and Arduino Pro Micro onto the PCB, configuring the keymap using C, and flashing custom QMK firmware to the keypad.",
     images: [
       "IMG_2238.jpg",
       "front.jpg",
@@ -49,11 +49,11 @@ export const projects: Project[] = [
     ],
     tags: ["Mechanical Keyboard", "C", "PCB", "Soldering", "Arduino", "Diodes", "QMK", "Firmware"],
     details: {
-      challenge: "I needed to learn how to configure an Arduino for a keyboard and wanted to get more comfortable with soldering, so a small keypad seemed like a good place to start.",
-      solution: "Designed and built 3x3 keypad by soldering an Arduino microcontroller and diodes to a custom PCB and flashed QMK firmware for it to function.",
+      challenge: "Certain computer functions can take too long to do manually. What if there was a way to optimize functions, make them easily accessible, and perform them with a single key press?",
+      solution: "Designed and built 3x3 macropad by soldering an Arduino microcontroller and diodes to a custom PCB. After implementing macro functions and flashing the QMK firmware, the keypad can perform a variety of functions such as: open a new browser tab, close all applications, mute switch, and more.",
       impact: [
-        "Bolstered soldering and firmware programming experience.",
-        "Useable as a small macropad for computer functions."
+        "Useable as a small macropad for computer functions.",
+        "Bolstered soldering and firmware programming experience."
       ]
     }
   }
