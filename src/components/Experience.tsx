@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { jobs } from '@/data/experienceData';
+import { FileText, ExternalLink } from "lucide-react";
 
 const TimelineDot = () => (
   <div className="absolute left-0 w-3 h-3 bg-primary rounded-full mt-8 -ml-1.5 border border-white dark:border-gray-900" />
@@ -37,6 +38,21 @@ export default function ExperienceSection() {
                       <li key={index}>{item}</li>
                     ))}
                   </ul>
+                  {job.link && (
+                    <div className="mt-3">
+                      <a
+                        href={job.link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:text-blue-400 transition-colors duration-100"
+                      >
+                        <span className="inline-flex items-center gap-1">
+                          <FileText className="w-4 h-4"/>
+                          {job.link.text}
+                        </span>
+                      </a>
+                    </div>
+                  )}
                 </CardContent>
               </Card>
             </div>

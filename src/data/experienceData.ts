@@ -3,6 +3,10 @@ export type Job = {
   company: string;
   dates: string;
   description: string[];
+  link?: {
+    text: string;
+    url: string;
+  }
 };
 
 export const jobs: Job[] = [
@@ -29,6 +33,10 @@ export const jobs: Job[] = [
       "Led a team of bussers, mentoring and providing them an example of best practices.",
       "Coordinated with managers and bartenders to effectively attend to all guests.",
       "Fostered professionalism and customer service.",
-    ]
+    ],
+    link: {
+      text: "Letter of Recommendation",
+      url: "Runyons rec letter com.pdf",
+    }
   }
 ];
