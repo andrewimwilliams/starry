@@ -43,6 +43,7 @@ export const projects: Project[] = [
     summary: "Built custom 3x3 mechanical macropad by designing a PCB in KiCAD, soldering switches, diodes, and Arduino Pro Micro onto the PCB, configuring the keymap using C, and flashing custom QMK firmware to the keypad.",
     images: [
       "IMG_2238.jpg",
+      "macropad onshape.jpg",
       "front.jpg",
       "back.jpg",
       "schem.jpg"
