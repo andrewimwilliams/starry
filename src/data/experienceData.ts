@@ -13,14 +13,14 @@ export const jobs: Job[] = [
   {
     title: "Service Technician",
     company: "Florida State University",
-    dates: "02/2021 - 06/2025",
+    dates: "02/2021 - 07/2025",
     description: [
-      "Developed a custom JavaScript application named ITEM App that maintains data for over 5,000 devices.",
+      "Developed a custom TypeScript application named ITEM App that maintains data for over 5,000 devices.",
       "Upgraded ITEM App by streamlining user interface, improving inventory efficiency by over 50%.",
+      "•	Improved ITEM App data reliability and scalability by replacing Microsoft Lists with a custom SQLite database and Sequelize ORM, enabling better backend performance and maintainability.",
       "Updated engineering software by cloning SSDs through system BIOS, improving overall system performance.",
       "Assembled workstations for students and faculty by promptly deploying desktops, displays, and other peripherals.",
       "Renovated lecture rooms by removing old hardware and installing new machines and AV wiring.",
-      "Transformed unreliable classrooms into dependable learning spaces, enhancing the learning environment.",
     ]
   },
   {
