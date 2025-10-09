@@ -168,7 +168,7 @@ const Hero = () => {
               </a>
             </Button>
             <span className="absolute left-1/2 transform -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-black text-white text-xs px-2 py-1 rounded-md shadow-md">
-              email
+              Email
             </span>
           </div>
         </div>
