@@ -11,6 +11,18 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Embedded Systems Engineer",
+    company: "Beacon Industries",
+    dates: "08/2025 - Present",
+    description: [
+      "Develops and maintains Git-based avionics communication framework using C++ and RTI Connext DDS to emulate MIL-STD-1553 data transfer.",
+      "Incorporates AI-driven anomaly detection and priority ranking via TensorFlow, enabling intelligent filtering of normalized data frames.",
+      "Conducts integrated thermal-mechanical-radiation simulations with ANSYS and Geant4 to evaluate heater material performance in LEO, MEO, and GEO.",
+      "Leads technical presentations to NAVAIR representatives, translating high-level proposals into actionable plans, progress reports, and detailed slides.",
+      "Authors reports and supporting documentation for SBIR contracts, synthesizing results into concise deliverables for U.S. Space Force and Navy stakeholders.",
+    ]
+  },
+  {
     title: "Service Technician",
     company: "Florida State University",
     dates: "02/2021 - 07/2025",
