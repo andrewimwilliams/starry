@@ -150,7 +150,7 @@ const Hero = () => {
           </Button>
           <Button asChild variant="default" size="lg" className="rounded-full">
             <a
-              href={"Andrew_M_Williams_Resume.pdf"}
+              href={"Andrew_M_Williams_Resume_26.pdf"}
               target="_blank"
               rel="noopener noreferrer"
             >               
