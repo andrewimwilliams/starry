@@ -128,30 +128,50 @@ const ProjectCard = ({ project }: { project: Project }) => {
           >
             <div className="rounded-lg bg-muted/50 p-4 space-y-4">
               <div>
-                <h4 className="font-semibold mb-2">Challenge</h4>
-                <p className="text-muted-foreground">{project.details.challenge}</p>
+                <h4 className="text-lg font-semibold text-foreground mb-3">Challenge</h4>
+                <div className="space-y-3">
+                  {project.details.challenge.map((paragraph, index) => (
+                    <p key={index} className="text-muted-foreground">
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
               </div>
               
               <div>
-                <h4 className="font-semibold mb-2">Solution</h4>
-                <p className="text-muted-foreground">{project.details.solution}</p>
+                <h4 className="text-lg font-semibold text-foreground mb-3">Solution</h4>
+                <div className="space-y-3">
+                  {project.details.solution.map((paragraph, index) => (
+                    <p key={index} className="text-muted-foreground">
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
               </div>
               
               <div>
-                <h4 className="font-semibold mb-2">Impact</h4>
+                <h4 className="text-lg font-semibold text-foreground mb-3">Impact</h4>
                 <ul className="list-disc list-inside space-y-1 text-muted-foreground">
                   {project.details.impact.map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
               </div>
-              {project.externalLink && (
-                <Button variant="link" className="flex items-center gap-2 text-md" asChild>
-                  <a href={project.externalLink.url} target="_blank" rel="noopener noreferrer">
-                    {project.externalLink.title}
-                  </a>
-                </Button>
-              )}
+                {project.externalLink && (
+                  <Button
+                    variant="link"
+                    className="mt-2 text-sm text-muted-foreground"
+                    asChild
+                  >
+                    <a
+                      href={project.externalLink.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View SBIR topic solicitation
+                    </a>
+                  </Button>
+                )}
             </div>
           </div>
 
@@ -179,7 +199,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
 const PortfolioFeed = () => {
   return (
     <section className="relative z-10 min-h-screen bg-background/95 px-4 py-24 backdrop-blur-sm">
-      <div className="mx-auto max-w-3xl">
+      <div className="mx-auto max-w-5xl">
         <h2 className="mb-12 text-center text-4xl font-bold tracking-tight">
           Projects
         </h2>

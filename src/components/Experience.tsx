@@ -34,10 +34,17 @@ export default function ExperienceSection() {
                 </CardHeader>
                 <CardContent>
                   <ul className="list-inside list-disc space-y-1 text-muted-foreground">
-                    {job.description.map((item, index) => (
-                      <li key={index}>{item}</li>
-                    ))}
+                    {job.summary && (
+                      <p className="mb-3 text-muted-foreground">
+                        {job.summary}
+                      </p>
+                    )}
                   </ul>
+                    <ul className="list-inside list-disc space-y-1 text-muted-foreground">
+                      {job.bullets.map((item, index) => (
+                        <li key={index}>{item}</li>
+                      ))}
+                    </ul>
                   {job.link && (
                     <div className="mt-3">
                       <a

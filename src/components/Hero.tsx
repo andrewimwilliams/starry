@@ -121,7 +121,7 @@ const Hero = () => {
         <p className="mb-6 text-xl text-muted-foreground sm:text-2xl">
           {heroData.title}
         </p>
-        <p className="mb-8 max-w-2xl text-muted-foreground">
+        <p className="mb-8 max-w-4xl text-muted-foreground">
           {heroData.description}
         </p>
         <div className="mb-12 flex space-x-4">
